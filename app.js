@@ -50,25 +50,86 @@ console.log("connected");
 // } else {
 //     console.log("you are over 18")
 // }
-//red,green, yellow
-let light = "green";
-if(light === "green"){
-    console.log("go")
-} else if (light "yellow") {
-    console.log(caition);
-} else {
-  console.log("stop")
+// //red,green, yellow
+// let light = "green";
+// if(light === "green"){
+//     console.log("go")
+// } else if (light "yellow") {
+//     console.log(caition);
+// } else {
+//   console.log("stop")
+// }
+
+// let kristyIntolerant = true;
+// let boaBaoIntolerant = false;
+
+// if (kristyIntolerant ===true && boaBaoIntolerant === true) {
+//         console.log("get almond milk");
+//     } else if ( kristyIntolerant === true || boaBaoIntolerant === true){
+//         console.log("get both milk");
+//     } else{
+//         console.log("just regular milk");
+//     }
+
+
+/* function test() {
+    console.log("im a function");
 }
+/* test(); */
 
-let kristyIntolerant = true;
-let boaBaoIntolerant = false;
+// const add = function(x,y){
+//   return x + y; //return ends function
+// };
 
-if (kristyIntolerant ===true && boaBaoIntolerant === true) {
-        console.log("get almond milk");
-    } else if ( kristyIntolerant === true || boaBaoIntolerant === true){
-        console.log("get both milk");
-    } else{
-        console.log("just regular milk");
+// console.log(add(100,20));
+// let name = 'richard'; // cant redefine const
+// name = "alan" */
+
+/* const hello = function() {
+    console.log("hello");
+};
+const bye = function() {
+    console.log("bye");
+};
+const hiBye = function () {
+    hello();
+    bye ();
+    hello();
+    bye();
+};
+hiBye;  */
+
+/* const name = "Thurushi"; //global variable or global
+
+function displayName() {
+    const name = "Kelly"; // local or function scope
+    
+    function sun() {
+        console.log(name); // inner function has accass to outer function
     }
+    return sun;
+}
+const myFunc = displayName();
+myFunc();
+// closure */
 
+////Array
 
+ /* const name = ["Aarthi", "Vicky", "vincent", "Doyle", "Kelly"];
+// names.push("Karen"); 
+names.forEach(name => console.log(name)); */
+
+////// spread operator
+/* const number = [1, 2, 3, 4, 5, 6];
+const add = function(x, y, z, a, b, c) {
+    return x + y + z + a + b + c;
+};
+console.log(add(...numbers)); */
+
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa",
+"Richard"];
+//Using the above array filter out all students whose names contain
+//less than 5 characters
+
+//"include" junshen
+// Alan or Savva include 'some'
