@@ -130,6 +130,78 @@ let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa",
 "Richard"];
 //Using the above array filter out all students whose names contain
 //less than 5 characters
+const filtered = students.filter(students => students.length < 5);
+console.log(filtered);
 
 //"include" junshen
 // Alan or Savva include 'some'
+console.log(students.includes("junshen"));
+console.log(students.some(student => student === "Alan" || student === "Savva"));
+
+
+
+
+////object
+/* const Riya = {
+    name: "Riya",
+    dob: 2003,
+    graduted: false,
+    age:function(){
+        console.log(this);
+        return 2020- this.dob;
+    }
+};
+
+let age = function(){
+    console.log(this);
+    return 2020- this.dob;
+} */
+
+/* const Homer = {
+    name: "Homer",
+    age: 32,
+    Family: {
+        wife: {
+            name:"Marge",
+            age: 32,
+        },
+        son: {
+            name: "Bart",
+            age: 8,
+        }
+    },
+    pets: ["cat", "dog"]
+};
+
+Homer.family.daughter = {
+    name: "Lisa",
+    age: 8
+}; */
+
+////destructuring
+const Riya = {
+    name: "Riya",
+    dob: 2003,
+    graduted: false,
+    age:function(){
+        console.log(this);
+        return 2020- this.dob;
+    }
+};
+
+/* const { name, age } = Riya;
+
+const calc = {
+    add: function() {
+        return x + y;
+    }
+};
+const { add, divided, cosine } = calc;
+
+const { name, poster } = movie; */
+
+/* const Angle = Riya; ///this snt a copy its a reference to
+Angle.name = "Angel"; */
+
+const Angel = {};
+Angel.dob = Riya.dob
